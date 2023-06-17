@@ -1,0 +1,26 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2017-08-11 03:17:11.769210",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Training Result",
+ "enabled": 0,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>{{_(\"Training Event\")}}</h3>\n<p>{{ message }}</p>\n\n<h4>{{_(\"Details\")}}</h4>\n{{_(\"Event Name\")}}: <a href=\"{{ event_link }}\">{{ name }}</a>\n<br>{{_(\"Event Location\")}}: {{ location }}\n<br>{{_(\"Start Time\")}}: {{ start_time }}\n<br>{{_(\"End Time\")}}: {{ end_time }}\n<br>{{_(\"Attendance\")}}: {{ attendance }}\n",
+ "modified": "2023-06-03 10:21:26.355596",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Training Feedback",
+ "owner": "Administrator",
+ "recipients": [
+  {}
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Sahayog Support System",
+ "subject": "Please Share your Feedback For {{ doc.training_event }}"
+}
